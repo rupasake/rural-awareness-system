@@ -1,0 +1,202 @@
+/* =========================
+   SMART RURAL AWARENESS SYSTEM
+   PROFESSIONAL CSS
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#2E7D32;
+    color:#333;
+}
+
+/* Header */
+.header{
+    background:linear-gradient(135deg,#2E7D32,#1B5E20);
+    color:white;
+    text-align:center;
+    padding:30px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.header h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* Navigation */
+.navbar{
+    background:#145A32;
+    padding:15px;
+    text-align:center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#FFD54F;
+}
+
+/* Main Container */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+}
+
+/* Dashboard Cards */
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    color:#2E7D32;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+.card a{
+    display:inline-block;
+    background:#2E7D32;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.card a:hover{
+    background:#1B5E20;
+}
+
+/* Forms */
+.form-container{
+    background:white;
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+}
+
+input:focus,
+textarea:focus{
+    border-color:#2E7D32;
+    outline:none;
+}
+
+button{
+    width:100%;
+    background:#2E7D32;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1B5E20;
+}
+
+/* Tables */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#2E7D32;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f1f8f4;
+}
+
+/* Section Titles */
+.section-title{
+    text-align:center;
+    color:#2E7D32;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+/* Information Cards */
+.info-box{
+    background:white;
+    padding:20px;
+    border-left:5px solid #2E7D32;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer{
+    background:#145A32;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}

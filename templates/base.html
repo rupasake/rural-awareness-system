@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rural Awareness System</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Rural Awareness System</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/logout">Logout</a>
+    </nav>
+</header>
+
+<div class="container">
+{% block content %}
+{% endblock %}
+</div>
+
+</body>
+</html>

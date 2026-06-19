@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Smart Farming Techniques</h2>
+<img src="{{ url_for('static', filename='images/farming.jpg') }}" width="600">
+<div class="card">
+    <h3>Modern Agricultural Practices</h3>
+
+    <ul>
+        <li>Drip Irrigation</li>
+        <li>Soil Testing</li>
+        <li>Organic Farming</li>
+        <li>Crop Rotation</li>
+        <li>Weather Monitoring</li>
+        <li>Smart Sensors</li>
+    </ul>
+
+    <p>
+        Smart farming uses technology and data-driven methods
+        to increase crop production while reducing costs.
+    </p>
+</div>
+{% endblock %}
