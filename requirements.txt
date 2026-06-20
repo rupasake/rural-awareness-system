@@ -1,0 +1,3 @@
+Flask
+ginicorn
+Flask-SQLAlchemy
